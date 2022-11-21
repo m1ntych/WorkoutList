@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/ec029f0622.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workouts</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+   
+    <header>
+        <h1 class="first_header">Ready to workout?</h1>
+        <h1 class="second_header">Let's do this!</h1>
+        <button class="button_confirm"><i class="fa-solid fa-dumbbell"></i> YEAH!</button>
+    </header>
+    <main>
+        <section class="main">
+            <section>
+                <ul class="days">
+                    <li class="daysOfWeek dayMonday post">Monday</li>
+                    <li class="daysOfWeek dayThursday post">Thursday</li>
+                    <li class="daysOfWeek dayFriday post">Friday</li>
+                </ul>
+            </section>
+
+            <input type="text" placeholder="Add Exercise" class="inputMonday" name="mon" id="monday">
+
+
+            <input type="text" placeholder="Add Exercise" class="inputThursday" name="thu" id="thursday">
+
+
+            <input type="text" placeholder="Add Exercise" class="inputFriday" name="fri" id="friday">
+            <label for="monday">
+                <ul class="ulOfEx exMonday" role="list">
+                    <li class="ex"><span><i class="fa-solid fa-delete-left"></i></span>
+                        <div>Bench Press (Barbell)</div>
+                    </li>
+                    <li class="ex"><span><i class="fa-solid fa-delete-left"></i></span>
+                        <div>Chest Fly (Dumbell)</div>
+                    </li>
+                    <li class="ex"><span><i class="fa-solid fa-delete-left"></i></span>
+                        <div>Chest Press (Machine)</div>
+                    </li>
+                </ul>
+            </label>
+            <label for="thursday">
+                <ul class="ulOfEx exThursday">
+                    <li class="ex"><span><i class="fa-solid fa-delete-left"></i></span>
+                        <div>Chin Up (Assisted)</div>
+                    </li>
+                    <li class="ex"><span><i class="fa-solid fa-delete-left"></i></span>
+                        <div>Back Extension</div>
+                    </li>
+                    <li class="ex"><span><i class="fa-solid fa-delete-left"></i></span>
+                        <div>Lat Pulldown (Cable)</div>
+                    </li>
+                    <li class="ex"><span><i class="fa-solid fa-delete-left"></i></span>
+                        <div>Seated Row (Cable)</div>
+                    </li>
+                </ul>
+            </label>
+            <label for="friday">
+                <ul class="ulOfEx exFriday">
+                    <li class="ex"><span><i class="fa-solid fa-delete-left"></i></span>
+                        <div>Squat (Barbell)</div>
+                    </li>
+                    <li class="ex"><span><i class="fa-solid fa-delete-left"></i></span>
+                        <div>Leg Extension (Machine)</div>
+                    </li>
+                    <li class="ex"><span><i class="fa-solid fa-delete-left"></i></span>
+                        <div>Lying Leg Curl</div>
+                    </li>
+                    <li class="ex"><span><i class="fa-solid fa-delete-left"></i></span>
+                        <div>Standind Calf Raise</div>
+                    </li>
+                </ul>
+            </label>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
